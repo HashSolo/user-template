@@ -1972,3 +1972,250 @@ Served asset /logo.png - 304 Not Modified (0ms)
 
 Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-03-01 16:16:07 -0500
 Served asset /blueprint/print.css - 304 Not Modified (0ms)
+DEPRECATION WARNING: ActiveRecord::Associations::AssociationCollection is deprecated! Use ActiveRecord::Associations::CollectionProxy instead. (called from <top (required)> at /Users/chriscleveland/Desktop/Coding/Ruby/rails_projects/user-template/config/environment.rb:5)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-03-01 16:25:51 -0500
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (5.1ms)
+Rendered layouts/_stylesheets.html.erb (2.1ms)
+Rendered layouts/_header.html.erb (3.1ms)
+Rendered layouts/_footer.html.erb (1.7ms)
+Completed 200 OK in 29ms (Views: 28.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-03-01 16:25:52 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-03-01 16:25:52 -0500
+Served asset /logo.png - 304 Not Modified (42ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-03-01 16:25:52 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-03-01 16:25:52 -0500
+Served asset /blueprint/print.css - 304 Not Modified (2ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-03-01 16:32:40 -0500
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LiXy6NVEGVouSIfuhdBP44neLz4E8S9uyGc0osBY1TQ=", "session"=>{"email"=>"wrong", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'wrong' LIMIT 1
+Rendered sessions/new.html.erb within layouts/application (4.9ms)
+Rendered layouts/_stylesheets.html.erb (2.1ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 442ms (Views: 31.8ms | ActiveRecord: 23.9ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-03-01 16:32:41 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-03-01 16:32:41 -0500
+Served asset /logo.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-03-01 16:32:41 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-03-01 16:32:41 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-03-01 16:49:24 -0500
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LiXy6NVEGVouSIfuhdBP44neLz4E8S9uyGc0osBY1TQ=", "session"=>{"email"=>"dude@abides.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'dude@abides.com' LIMIT 1[0m
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 40ms
+
+
+Started GET "/users/2" for 127.0.0.1 at 2012-03-01 16:49:24 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "2"]]
+Rendered users/show.html.erb within layouts/application (3.3ms)
+Rendered layouts/_stylesheets.html.erb (2.1ms)
+Rendered layouts/_header.html.erb (435.9ms)
+Completed 500 Internal Server Error in 546ms
+
+ActionView::Template::Error (undefined local variable or method `signed_in' for #<#<Class:0x007feadd9c2f78>:0x007feadd9befb8>):
+    4: 		<ul>
+    5: 			<li><%= link_to "Home", root_path %>
+    6: 			<li><%= link_to "Help", help_path %>
+    7: 			<% if signed_in %>
+    8: 			<li><%= link_to "Sign out", signout_path, :method => :delete%></li>
+    9: 			<% else %>
+    10: 			<li><%= link_to "Sign in", signin_path %></li>
+  app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb___2900957972246996280_70323358431520'
+  app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb___3651232930189619541_70323338939520'
+
+Rendered /Users/chriscleveland/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.6ms)
+Rendered /Users/chriscleveland/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /Users/chriscleveland/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (32.1ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-03-01 16:49:43 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-03-01 16:49:43 -0500
+Served asset /logo.png - 304 Not Modified (14ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-03-01 16:49:43 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-03-01 16:49:43 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-03-01 16:49:47 -0500
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LiXy6NVEGVouSIfuhdBP44neLz4E8S9uyGc0osBY1TQ=", "session"=>{"email"=>"dude@abides.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'dude@abides.com' LIMIT 1[0m
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 102ms
+
+
+Started GET "/users/2" for 127.0.0.1 at 2012-03-01 16:49:47 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "2"]]
+Rendered users/show.html.erb within layouts/application (3.5ms)
+Rendered layouts/_stylesheets.html.erb (2.9ms)
+Rendered layouts/_header.html.erb (172.3ms)
+Completed 500 Internal Server Error in 211ms
+
+ActionView::Template::Error (undefined local variable or method `signed_in' for #<#<Class:0x007feadcaa2c28>:0x007feadca51cd8>):
+    4: 		<ul>
+    5: 			<li><%= link_to "Home", root_path %>
+    6: 			<li><%= link_to "Help", help_path %>
+    7: 			<% if signed_in %>
+    8: 			<li><%= link_to "Sign out", signout_path, :method => :delete%></li>
+    9: 			<% else %>
+    10: 			<li><%= link_to "Sign in", signin_path %></li>
+  app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb___2900957972246996280_70323358431520'
+  app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb___3651232930189619541_70323338939520'
+
+Rendered /Users/chriscleveland/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.5ms)
+Rendered /Users/chriscleveland/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+Rendered /Users/chriscleveland/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-03-01 16:49:56 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-03-01 16:49:56 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-03-01 16:49:56 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-03-01 16:49:56 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-03-01 16:49:59 -0500
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LiXy6NVEGVouSIfuhdBP44neLz4E8S9uyGc0osBY1TQ=", "session"=>{"email"=>"dude@abides.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'dude@abides.com' LIMIT 1[0m
+Rendered sessions/new.html.erb within layouts/application (3.7ms)
+Rendered layouts/_stylesheets.html.erb (2.5ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+Rendered layouts/_header.html.erb (10.1ms)
+Rendered layouts/_footer.html.erb (1.8ms)
+Completed 200 OK in 145ms (Views: 40.6ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-03-01 16:50:00 -0500
+Served asset /logo.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-03-01 16:50:00 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-03-01 16:50:00 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-03-01 16:50:00 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-03-01 16:50:07 -0500
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LiXy6NVEGVouSIfuhdBP44neLz4E8S9uyGc0osBY1TQ=", "session"=>{"email"=>"dude@abides.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'dude@abides.com' LIMIT 1[0m
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 41ms
+
+
+Started GET "/users/2" for 127.0.0.1 at 2012-03-01 16:50:07 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "2"]]
+Rendered users/show.html.erb within layouts/application (3.2ms)
+Rendered layouts/_stylesheets.html.erb (5.4ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+Rendered layouts/_header.html.erb (5.5ms)
+Rendered layouts/_footer.html.erb (1.7ms)
+Completed 200 OK in 53ms (Views: 35.2ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-03-01 16:50:07 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-03-01 16:50:07 -0500
+Served asset /logo.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-03-01 16:50:07 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-03-01 16:50:07 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2012-03-01 16:50:13 -0500
+  Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-01 16:50:14 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.9ms)
+Rendered layouts/_stylesheets.html.erb (2.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Rendered layouts/_header.html.erb (32.1ms)
+Rendered layouts/_footer.html.erb (69.0ms)
+Completed 200 OK in 127ms (Views: 125.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-03-01 16:50:14 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-03-01 16:50:14 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-03-01 16:50:14 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-03-01 16:50:14 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
