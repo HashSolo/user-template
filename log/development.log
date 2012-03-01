@@ -1,0 +1,1778 @@
+DEPRECATION WARNING: ActiveRecord::Associations::AssociationCollection is deprecated! Use ActiveRecord::Associations::CollectionProxy instead. (called from <top (required)> at /Users/chriscleveland/Desktop/Important Stuff (not really)/Professional/Coding/Ruby/rails_projects/remake_sample_app/config/environment.rb:5)
+DEPRECATION WARNING: ActiveRecord::Associations::AssociationCollection is deprecated! Use ActiveRecord::Associations::CollectionProxy instead. (called from <top (required)> at /Users/chriscleveland/Desktop/Important Stuff (not really)/Professional/Coding/Ruby/rails_projects/remake_sample_app/config/environment.rb:5)
+DEPRECATION WARNING: ActiveRecord::Associations::AssociationCollection is deprecated! Use ActiveRecord::Associations::CollectionProxy instead. (called from <top (required)> at /Users/chriscleveland/Desktop/Important Stuff (not really)/Professional/Coding/Ruby/rails_projects/remake_sample_app/config/environment.rb:5)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-01-16 16:24:21 -0500
+Served asset /rails.png - 200 OK (42ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2012-01-16 16:24:32 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (25.8ms)
+Compiled application.css  (2ms)  (pid 4030)
+Compiled pages.css  (12ms)  (pid 4030)
+Compiled application.js  (39ms)  (pid 4030)
+Compiled jquery.js  (58ms)  (pid 4030)
+Compiled jquery_ujs.js  (8ms)  (pid 4030)
+Compiled pages.js  (4968ms)  (pid 4030)
+Completed 200 OK in 5542ms (Views: 5541.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-16 16:24:39 -0500
+Served asset /application.css - 200 OK (735ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-16 16:24:39 -0500
+Served asset /pages.css - 200 OK (38ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-16 16:24:39 -0500
+Served asset /pages.js - 200 OK (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-16 16:24:39 -0500
+Served asset /jquery.js - 200 OK (56ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-16 16:24:40 -0500
+Served asset /jquery_ujs.js - 200 OK (21ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-16 16:24:40 -0500
+Served asset /application.js - 200 OK (25ms)
+DEPRECATION WARNING: ActiveRecord::Associations::AssociationCollection is deprecated! Use ActiveRecord::Associations::CollectionProxy instead. (called from <top (required)> at /Users/chriscleveland/Desktop/Important Stuff (not really)/Professional/Coding/Ruby/rails_projects/remake_sample_app/config/environment.rb:5)
+DEPRECATION WARNING: ActiveRecord::Associations::AssociationCollection is deprecated! Use ActiveRecord::Associations::CollectionProxy instead. (called from <top (required)> at /Users/chriscleveland/Desktop/Important Stuff (not really)/Professional/Coding/Ruby/rails_projects/remake_sample_app/config/environment.rb:5)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2012-01-16 16:46:51 -0500
+  Processing by PagesController#about as HTML
+Rendered pages/about.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-16 16:46:51 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-16 16:46:51 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-16 16:46:51 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-16 16:46:51 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2012-01-16 17:02:49 -0500
+  Processing by PagesController#about as HTML
+Rendered pages/about.html.erb (0.7ms)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2012-01-16 17:10:23 -0500
+  Processing by PagesController#about as HTML
+Rendered pages/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 22.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2012-01-16 17:45:10 -0500
+
+ActionController::RoutingError (No route matches [GET] "/pages"):
+  
+
+Rendered /Users/chriscleveland/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (23.3ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at 2012-01-16 17:45:15 -0500
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 51ms (Views: 50.9ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: ActiveRecord::Associations::AssociationCollection is deprecated! Use ActiveRecord::Associations::CollectionProxy instead. (called from <top (required)> at /Users/chriscleveland/Desktop/Important Stuff (not really)/Professional/Coding/Ruby/rails_projects/remake_sample_app/config/environment.rb:5)
+DEPRECATION WARNING: ActiveRecord::Associations::AssociationCollection is deprecated! Use ActiveRecord::Associations::CollectionProxy instead. (called from <top (required)> at /Users/chriscleveland/Desktop/Important Stuff (not really)/Professional/Coding/Ruby/rails_projects/remake_sample_app/config/environment.rb:5)
+DEPRECATION WARNING: ActiveRecord::Associations::AssociationCollection is deprecated! Use ActiveRecord::Associations::CollectionProxy instead. (called from <top (required)> at /Users/chriscleveland/Desktop/Important Stuff (not really)/Professional/Coding/Ruby/rails_projects/remake_sample_app/config/environment.rb:5)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2012-01-25 16:39:31 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (48.5ms)
+Compiled blueprint/screen.css  (22ms)  (pid 2305)
+Compiled blueprint/print.css  (25ms)  (pid 2305)
+Completed 200 OK in 467ms (Views: 467.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-01-25 16:39:32 -0500
+Served asset /blueprint/screen.css - 200 OK (38ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-01-25 16:39:32 -0500
+Served asset /blueprint/print.css - 200 OK (4ms)
+DEPRECATION WARNING: ActiveRecord::Associations::AssociationCollection is deprecated! Use ActiveRecord::Associations::CollectionProxy instead. (called from <top (required)> at /Users/chriscleveland/Desktop/Coding/Ruby/rails_projects/remake_sample_app/config/environment.rb:5)
+DEPRECATION WARNING: ActiveRecord::Associations::AssociationCollection is deprecated! Use ActiveRecord::Associations::CollectionProxy instead. (called from <top (required)> at /Users/chriscleveland/Desktop/Coding/Ruby/rails_projects/remake_sample_app/config/environment.rb:5)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-02-06 20:04:25 -0500
+Served asset /rails.png - 200 OK (40ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-02-06 20:08:00 -0500
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2012-02-06 20:08:04 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+
+Rendered /Users/chriscleveland/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (46.7ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2012-02-06 20:08:14 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.4ms)
+Compiled blueprint/ie.css  (9ms)  (pid 2857)
+Completed 500 Internal Server Error in 253ms
+
+ActionView::Template::Error (undefined local variable or method `alt' for #<#<Class:0x007fad79c24740>:0x007fad79c1f290>):
+    17: 
+    18: 	<div class="container">
+    19: 		<header>
+    20: 			<%= image_tag("logo.png", alt => "Sample App", :class => "round") %>
+    21: 		</header>
+    22: 			
+    23:  <%= yield %>
+  app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb___3828361417873633397_70191524423380'
+
+Rendered /Users/chriscleveland/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.8ms)
+Rendered /Users/chriscleveland/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+Rendered /Users/chriscleveland/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.9ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2012-02-06 20:08:37 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 20:08:37 -0500
+Served asset /blueprint/screen.css - 200 OK (46ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 20:08:37 -0500
+Served asset /logo.png - 404 Not Found (117ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/logo.png"):
+  
+
+Rendered /Users/chriscleveland/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 20:08:37 -0500
+Served asset /blueprint/print.css - 200 OK (1ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2012-02-06 20:11:07 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 36ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 20:11:07 -0500
+Served asset /logo.png - 404 Not Found (29ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/logo.png"):
+  
+
+Rendered /Users/chriscleveland/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 20:11:07 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 20:11:07 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2012-02-06 20:22:06 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 50ms (Views: 49.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 20:22:06 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 20:22:06 -0500
+Served asset /logo.png - 200 OK (58ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 20:22:06 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2012-02-06 20:24:46 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 20:24:46 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 20:24:46 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 20:24:46 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2012-02-06 20:24:48 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 20:24:48 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 20:24:48 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 20:24:48 -0500
+Served asset /blueprint/print.css - 304 Not Modified (2ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2012-02-06 20:25:28 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.0ms)
+Compiled custom.css  (0ms)  (pid 2857)
+Completed 200 OK in 50ms (Views: 49.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 20:25:28 -0500
+Served asset /custom.css - 200 OK (55ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 20:25:28 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 20:25:28 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 20:25:28 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2012-02-06 20:27:05 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.1ms)
+Compiled custom.css  (0ms)  (pid 2857)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 20:27:05 -0500
+Served asset /custom.css - 200 OK (1ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 20:27:05 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 20:27:05 -0500
+Served asset /logo.png - 304 Not Modified (14ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 20:27:05 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2012-02-06 20:29:36 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.1ms)
+Compiled custom.css  (0ms)  (pid 2857)
+Completed 200 OK in 70ms (Views: 69.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 20:29:36 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 20:29:36 -0500
+Served asset /custom.css - 200 OK (5ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 20:29:36 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 20:29:36 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2012-02-06 20:41:19 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.1ms)
+Compiled custom.css  (0ms)  (pid 2857)
+Completed 200 OK in 176ms (Views: 174.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 20:41:19 -0500
+Served asset /custom.css - 200 OK (19ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 20:41:19 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 20:41:19 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 20:41:19 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2012-02-06 20:45:12 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 73ms (Views: 72.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 20:45:12 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 20:45:12 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 20:45:12 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 20:45:12 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2012-02-06 20:46:16 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (22.1ms)
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 20:46:16 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 20:46:16 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 20:46:16 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 20:46:16 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2012-02-06 20:49:25 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.2ms)
+Compiled custom.css  (0ms)  (pid 2857)
+Completed 200 OK in 70ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 20:49:25 -0500
+Served asset /custom.css - 200 OK (79ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 20:49:25 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 20:49:25 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 20:49:25 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2012-02-06 20:51:12 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.2ms)
+Compiled custom.css  (0ms)  (pid 2857)
+Completed 200 OK in 25ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 20:51:13 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 20:51:13 -0500
+Served asset /custom.css - 200 OK (2ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 20:51:13 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 20:51:13 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2012-02-06 20:55:16 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.2ms)
+Compiled custom.css  (0ms)  (pid 2857)
+Rendered layouts/_stylesheets.html.erb (7.6ms)
+Completed 200 OK in 221ms (Views: 220.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 20:55:16 -0500
+Served asset /custom.css - 200 OK (2ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 20:55:16 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 20:55:16 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 20:55:16 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2012-02-06 20:56:48 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.2ms)
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 20:56:48 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 20:56:48 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 20:56:48 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 20:56:48 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2012-02-06 20:59:28 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.2ms)
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (0.3ms)
+Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 20:59:28 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 20:59:28 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 20:59:28 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 20:59:28 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2012-02-06 21:00:31 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.2ms)
+Compiled custom.css  (0ms)  (pid 2857)
+Rendered layouts/_stylesheets.html.erb (7.7ms)
+Rendered layouts/_header.html.erb (0.3ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 21:00:31 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 21:00:31 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 21:00:31 -0500
+Served asset /custom.css - 200 OK (2ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 21:00:31 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-02-06 21:12:10 -0500
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-06 21:12:47 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.2ms)
+Compiled custom.css  (0ms)  (pid 2857)
+Rendered layouts/_stylesheets.html.erb (6.5ms)
+Rendered layouts/_header.html.erb (0.4ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 18ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 21:12:47 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 21:12:47 -0500
+Served asset /custom.css - 200 OK (1ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 21:12:47 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 21:12:47 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-02-06 21:13:31 -0500
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (0.4ms)
+Rendered layouts/_stylesheets.html.erb (7.5ms)
+Rendered layouts/_header.html.erb (0.6ms)
+Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 25ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 21:13:31 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 21:13:31 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 21:13:31 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-02-06 21:16:39 -0500
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (0.0ms)
+Rendered layouts/_stylesheets.html.erb (1.6ms)
+Rendered layouts/_header.html.erb (111.4ms)
+Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 123ms (Views: 122.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 21:16:40 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 21:16:40 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 21:16:40 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 21:16:40 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-06 21:16:42 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.2ms)
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 21:16:42 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 21:16:42 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 21:16:42 -0500
+Served asset /logo.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 21:16:42 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-02-06 21:16:49 -0500
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (0.1ms)
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 21:16:49 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 21:16:49 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 21:16:49 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 21:16:49 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2012-02-06 21:16:51 -0500
+  Processing by PagesController#about as HTML
+Rendered pages/about.html.erb within layouts/application (0.5ms)
+Rendered layouts/_stylesheets.html.erb (1.4ms)
+Rendered layouts/_header.html.erb (1.7ms)
+Rendered layouts/_footer.html.erb (5.8ms)
+Completed 200 OK in 46ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 21:16:51 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 21:16:51 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 21:16:51 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 21:16:51 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-02-06 21:16:53 -0500
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (0.1ms)
+Rendered layouts/_stylesheets.html.erb (1.6ms)
+Rendered layouts/_header.html.erb (1.3ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 21:16:53 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 21:16:53 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 21:16:53 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 21:16:53 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-06 21:16:54 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.2ms)
+Rendered layouts/_stylesheets.html.erb (1.3ms)
+Rendered layouts/_header.html.erb (1.3ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 21:16:54 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 21:16:54 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 21:16:54 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 21:16:54 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-06 21:18:15 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.2ms)
+Compiled custom.css  (0ms)  (pid 2857)
+Rendered layouts/_stylesheets.html.erb (7.7ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 19ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 21:18:15 -0500
+Served asset /custom.css - 200 OK (5ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 21:18:16 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 21:18:16 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 21:18:16 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-06 21:20:16 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.2ms)
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 21:20:16 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 21:20:16 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 21:20:16 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 21:20:16 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-06 21:20:19 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.2ms)
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (1.7ms)
+Rendered layouts/_footer.html.erb (1.2ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 21:20:19 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 21:20:19 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 21:20:19 -0500
+Served asset /logo.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 21:20:19 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-02-06 21:20:23 -0500
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (0.1ms)
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 21:20:23 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 21:20:23 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 21:20:23 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 21:20:23 -0500
+Served asset /blueprint/print.css - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-06 21:20:24 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.2ms)
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (1.5ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 21:20:24 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 21:20:24 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 21:20:24 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 21:20:24 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-06 21:22:37 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.2ms)
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 21:22:37 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 21:22:37 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 21:22:37 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 21:22:37 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-06 21:22:38 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.2ms)
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (3.3ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 21:22:38 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 21:22:38 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 21:22:39 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 21:22:39 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-06 21:22:40 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.2ms)
+Rendered layouts/_stylesheets.html.erb (1.3ms)
+Rendered layouts/_header.html.erb (1.6ms)
+Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 21:22:40 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 21:22:40 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 21:22:40 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 21:22:40 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2012-02-06 21:22:41 -0500
+  Processing by PagesController#help as HTML
+Rendered pages/help.html.erb within layouts/application (0.4ms)
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (1.5ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 21:22:41 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 21:22:41 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 21:22:41 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 21:22:41 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-06 21:22:42 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.2ms)
+Rendered layouts/_stylesheets.html.erb (2.3ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 21:22:42 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 21:22:42 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 21:22:42 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 21:22:42 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+DEPRECATION WARNING: ActiveRecord::Associations::AssociationCollection is deprecated! Use ActiveRecord::Associations::CollectionProxy instead. (called from <top (required)> at /Users/chriscleveland/Desktop/Coding/Ruby/rails_projects/remake_sample_app/config/environment.rb:5)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-02-06 21:36:53 -0500
+  Processing by UsersController#new as HTML
+Rendered users/new.html.erb within layouts/application (0.7ms)
+Rendered layouts/_stylesheets.html.erb (4.7ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 65ms (Views: 64.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 21:36:53 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 21:36:53 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 21:36:53 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 21:36:53 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2012-02-06 21:39:33 -0500
+  Processing by UsersController#new as HTML
+Rendered users/new.html.erb within layouts/application (0.1ms)
+Rendered layouts/_stylesheets.html.erb (1.3ms)
+Rendered layouts/_header.html.erb (1.5ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 39ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 21:39:33 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 21:39:33 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 21:39:33 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 21:39:33 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-02-06 21:39:42 -0500
+  Processing by UsersController#new as HTML
+Rendered users/new.html.erb within layouts/application (0.1ms)
+Rendered layouts/_stylesheets.html.erb (1.3ms)
+Rendered layouts/_header.html.erb (1.5ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 21:39:42 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 21:39:42 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 21:39:42 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 21:39:42 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-06 21:40:16 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.2ms)
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (1.6ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 69ms (Views: 69.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 21:40:16 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 21:40:16 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 21:40:16 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 21:40:16 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-06 21:40:51 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.1ms)
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (1.3ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 21:40:51 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 21:40:51 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 21:40:51 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 21:40:51 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-02-06 21:40:52 -0500
+  Processing by UsersController#new as HTML
+Rendered users/new.html.erb within layouts/application (0.1ms)
+Rendered layouts/_stylesheets.html.erb (1.3ms)
+Rendered layouts/_header.html.erb (1.6ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 56ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 21:40:52 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 21:40:52 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 21:40:52 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 21:40:52 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-06 21:41:49 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.0ms)
+Rendered layouts/_stylesheets.html.erb (1.9ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered layouts/_footer.html.erb (1.7ms)
+Completed 200 OK in 129ms (Views: 128.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 21:41:49 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 21:41:49 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 21:41:49 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 21:41:49 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2012-02-06 21:41:51 -0500
+  Processing by PagesController#help as HTML
+Rendered pages/help.html.erb within layouts/application (0.1ms)
+Rendered layouts/_stylesheets.html.erb (1.3ms)
+Rendered layouts/_header.html.erb (1.6ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 42ms (Views: 41.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 21:41:51 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 21:41:51 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 21:41:51 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 21:41:51 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-06 21:41:52 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.8ms)
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (1.4ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 21:41:52 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 21:41:52 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 21:41:52 -0500
+Served asset /logo.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 21:41:52 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-02-06 21:41:53 -0500
+  Processing by UsersController#new as HTML
+Rendered users/new.html.erb within layouts/application (0.1ms)
+Rendered layouts/_stylesheets.html.erb (1.3ms)
+Rendered layouts/_header.html.erb (2.1ms)
+Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 58ms (Views: 57.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 21:41:53 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 21:41:53 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 21:41:53 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 21:41:53 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+DEPRECATION WARNING: ActiveRecord::Associations::AssociationCollection is deprecated! Use ActiveRecord::Associations::CollectionProxy instead. (called from <top (required)> at /Users/chriscleveland/Desktop/Coding/Ruby/rails_projects/remake_sample_app/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-06 22:58:35 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (45.1ms)
+Rendered layouts/_stylesheets.html.erb (210.4ms)
+Rendered layouts/_header.html.erb (2.8ms)
+Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 381ms (Views: 380.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-06 22:58:36 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.1ms)
+Rendered layouts/_stylesheets.html.erb (1.4ms)
+Rendered layouts/_header.html.erb (2.4ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-06 22:58:36 -0500
+Served asset /custom.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-06 22:58:36 -0500
+Served asset /logo.png - 304 Not Modified (32ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-06 22:58:36 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-06 22:58:36 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+DEPRECATION WARNING: ActiveRecord::Associations::AssociationCollection is deprecated! Use ActiveRecord::Associations::CollectionProxy instead. (called from <top (required)> at /Users/chriscleveland/Desktop/Coding/Ruby/rails_projects/remake_sample_app/config/environment.rb:5)
+DEPRECATION WARNING: ActiveRecord::Associations::AssociationCollection is deprecated! Use ActiveRecord::Associations::CollectionProxy instead. (called from <top (required)> at /Users/chriscleveland/Desktop/Coding/Ruby/rails_projects/remake_sample_app/config/environment.rb:5)
+  [1m[36m (27.3ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (7.7ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (2.5ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120207041456)
+  [1m[35m (2.2ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120207041456')[0m
+  [1m[35m (0.5ms)[0m  select sqlite_version(*)
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+DEPRECATION WARNING: ActiveRecord::Associations::AssociationCollection is deprecated! Use ActiveRecord::Associations::CollectionProxy instead. (called from <top (required)> at /Users/chriscleveland/Desktop/Coding/Ruby/rails_projects/remake_sample_app/config/environment.rb:5)
+  [1m[36m (24.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateUsers (20120207041456)
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (35.8ms)[0m  DROP TABLE "users"
+  [1m[36m (0.2ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20120207041456'[0m
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+DEPRECATION WARNING: ActiveRecord::Associations::AssociationCollection is deprecated! Use ActiveRecord::Associations::CollectionProxy instead. (called from <top (required)> at /Users/chriscleveland/Desktop/Coding/Ruby/rails_projects/remake_sample_app/config/environment.rb:5)
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120207041456)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (1.1ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120207041456')
+  [1m[36m (0.5ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("users")[0m
+DEPRECATION WARNING: ActiveRecord::Associations::AssociationCollection is deprecated! Use ActiveRecord::Associations::CollectionProxy instead. (called from <top (required)> at /Users/chriscleveland/Desktop/Coding/Ruby/rails_projects/remake_sample_app/config/environment.rb:5)
+DEPRECATION WARNING: ActiveRecord::Associations::AssociationCollection is deprecated! Use ActiveRecord::Associations::CollectionProxy instead. (called from <top (required)> at /Users/chriscleveland/Desktop/Coding/Ruby/rails_projects/remake_sample_app/config/environment.rb:5)
+DEPRECATION WARNING: ActiveRecord::Associations::AssociationCollection is deprecated! Use ActiveRecord::Associations::CollectionProxy instead. (called from <top (required)> at /Users/chriscleveland/Desktop/Coding/Ruby/rails_projects/remake_sample_app/config/environment.rb:5)
+  [1m[36m (0.8ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120207041456)
+Migrating to AddEmailUniquenessIndex (20120207201947)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35m (40.0ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (27.5ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120207201947')[0m
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (4.7ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("users")
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_info('index_users_on_email')[0m
+DEPRECATION WARNING: ActiveRecord::Associations::AssociationCollection is deprecated! Use ActiveRecord::Associations::CollectionProxy instead. (called from <top (required)> at /Users/chriscleveland/Desktop/Coding/Ruby/rails_projects/remake_sample_app/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-07 15:32:54 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (52.3ms)
+Rendered layouts/_stylesheets.html.erb (320.2ms)
+Rendered layouts/_header.html.erb (2.5ms)
+Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 644ms (Views: 643.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-07 15:32:55 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-07 15:32:55 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-07 15:32:55 -0500
+Served asset /logo.png - 304 Not Modified (123ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-07 15:32:56 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-02-07 15:33:06 -0500
+  Processing by UsersController#new as HTML
+Rendered users/new.html.erb within layouts/application (0.7ms)
+Rendered layouts/_stylesheets.html.erb (2.1ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 60ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-07 15:33:06 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-07 15:33:06 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-07 15:33:06 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-07 15:33:06 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+DEPRECATION WARNING: ActiveRecord::Associations::AssociationCollection is deprecated! Use ActiveRecord::Associations::CollectionProxy instead. (called from <top (required)> at /Users/chriscleveland/Desktop/Coding/Ruby/rails_projects/remake_sample_app/config/environment.rb:5)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-02-07 15:49:34 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+Rendered users/show.html.erb within layouts/application (176.7ms)
+Completed 500 Internal Server Error in 435ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <%= @user.name %>, <%= @user.email %>
+  app/views/users/show.html.erb:1:in `_app_views_users_show_html_erb__1789638553023224000_70176156131340'
+
+Rendered /Users/chriscleveland/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (12.4ms)
+Rendered /Users/chriscleveland/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/chriscleveland/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (39.3ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-02-07 15:51:13 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (54.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Rendered users/show.html.erb within layouts/application (6.7ms)
+Rendered layouts/_stylesheets.html.erb (2.3ms)
+Rendered layouts/_header.html.erb (20.1ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 176ms (Views: 59.0ms | ActiveRecord: 55.1ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-07 15:51:14 -0500
+Served asset /logo.png - 304 Not Modified (20ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-07 15:51:14 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-07 15:51:14 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-07 15:51:14 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-02-07 15:51:22 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Rendered users/show.html.erb within layouts/application (5.1ms)
+Rendered layouts/_stylesheets.html.erb (1.5ms)
+Rendered layouts/_header.html.erb (1.6ms)
+Rendered layouts/_footer.html.erb (1.2ms)
+Completed 200 OK in 65ms (Views: 63.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-07 15:51:22 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-07 15:51:22 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-07 15:51:22 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-07 15:51:22 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+DEPRECATION WARNING: ActiveRecord::Associations::AssociationCollection is deprecated! Use ActiveRecord::Associations::CollectionProxy instead. (called from <top (required)> at /Users/chriscleveland/Desktop/Coding/Ruby/rails_projects/remake_sample_app/config/environment.rb:5)
+DEPRECATION WARNING: ActiveRecord::Associations::AssociationCollection is deprecated! Use ActiveRecord::Associations::CollectionProxy instead. (called from <top (required)> at /Users/chriscleveland/Desktop/Coding/Ruby/rails_projects/remake_sample_app/config/environment.rb:5)
+DEPRECATION WARNING: ActiveRecord::Associations::AssociationCollection is deprecated! Use ActiveRecord::Associations::CollectionProxy instead. (called from <top (required)> at /Users/chriscleveland/Desktop/Coding/Ruby/rails_projects/remake_sample_app/config/environment.rb:5)
+  [1m[36m (0.6ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120207041456)
+Migrating to AddEmailUniquenessIndex (20120207201947)
+Migrating to AddPasswordToUsers (20120210001959)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (27.1ms)[0m  [1mALTER TABLE "users" ADD "encrypted_password" varchar(255)[0m
+  [1m[35m (0.7ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120210001959')
+  [1m[36m (0.3ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_users_on_email')
+DEPRECATION WARNING: ActiveRecord::Associations::AssociationCollection is deprecated! Use ActiveRecord::Associations::CollectionProxy instead. (called from <top (required)> at /Users/chriscleveland/Desktop/Coding/Ruby/rails_projects/remake_sample_app/config/environment.rb:5)
+DEPRECATION WARNING: ActiveRecord::Associations::AssociationCollection is deprecated! Use ActiveRecord::Associations::CollectionProxy instead. (called from <top (required)> at /Users/chriscleveland/Desktop/Coding/Ruby/rails_projects/remake_sample_app/config/environment.rb:5)
+  [1m[36m (0.6ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120207041456)
+Migrating to AddEmailUniquenessIndex (20120207201947)
+Migrating to AddPasswordToUsers (20120210001959)
+Migrating to AddSaltToUsers (20120210012227)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.6ms)[0m  [1mALTER TABLE "users" ADD "salt" varchar(255)[0m
+  [1m[35m (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120210012227')
+  [1m[36m (0.3ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_users_on_email')
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-10 14:48:37 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (84.1ms)
+Rendered layouts/_stylesheets.html.erb (285.9ms)
+Rendered layouts/_header.html.erb (41.5ms)
+Rendered layouts/_footer.html.erb (1.6ms)
+Completed 200 OK in 774ms (Views: 774.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-10 14:48:38 -0500
+Served asset /custom.css - 200 OK (27ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-10 14:48:38 -0500
+Served asset /blueprint/screen.css - 200 OK (78ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-10 14:48:38 -0500
+Served asset /logo.png - 200 OK (340ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-10 14:48:42 -0500
+Served asset /blueprint/print.css - 200 OK (30ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-02-10 14:48:48 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (16.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered users/show.html.erb within layouts/application (31.8ms)
+Rendered layouts/_stylesheets.html.erb (13.9ms)
+Rendered layouts/_header.html.erb (1.8ms)
+Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 103ms (Views: 83.0ms | ActiveRecord: 17.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-02-10 15:02:31 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+Rendered users/show.html.erb within layouts/application (14.3ms)
+Rendered layouts/_stylesheets.html.erb (2.8ms)
+Rendered layouts/_header.html.erb (2.4ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 44ms (Views: 41.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-10 15:02:31 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-10 15:02:31 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-10 15:02:31 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-10 15:02:31 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-02-10 15:04:46 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered users/show.html.erb within layouts/application (0.7ms)
+Rendered layouts/_stylesheets.html.erb (3.5ms)
+Rendered layouts/_header.html.erb (2.5ms)
+Rendered layouts/_footer.html.erb (1.3ms)
+Completed 200 OK in 33ms (Views: 23.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-10 15:04:46 -0500
+Served asset /custom.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-10 15:04:46 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-10 15:04:46 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-10 15:04:46 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-02-10 15:11:20 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+Rendered users/show.html.erb within layouts/application (0.7ms)
+Rendered layouts/_stylesheets.html.erb (1.3ms)
+Rendered layouts/_header.html.erb (1.5ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 23ms (Views: 13.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-10 15:11:20 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-10 15:11:20 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-10 15:11:20 -0500
+Served asset /logo.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-10 15:11:20 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-02-10 15:28:48 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered users/show.html.erb within layouts/application (0.3ms)
+Rendered layouts/_stylesheets.html.erb (1.5ms)
+Rendered layouts/_header.html.erb (1.7ms)
+Rendered layouts/_footer.html.erb (56.0ms)
+Completed 200 OK in 79ms (Views: 69.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-10 15:28:48 -0500
+Served asset /custom.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-10 15:28:48 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-10 15:28:48 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-10 15:28:48 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-02-10 15:29:12 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+Rendered users/show.html.erb within layouts/application (175.4ms)
+Completed 500 Internal Server Error in 191ms
+
+ActionView::Template::Error (undefined method `signed_in?' for #<#<Class:0x007f9ad2ce9478>:0x007f9ad2c5abb0>):
+    5: 				<%= gravatar_for @user %>
+    6: 				<%= @user.name %>
+    7: 			</h1>
+    8: 			<%= render 'follow_form' if signed_in? %>
+    9: 			<% unless @user.microposts.empty? %>
+    10: 			      <table class="microposts" summary="User microposts">
+    11: 			         <%= render @microposts %>
+  app/views/users/show.html.erb:8:in `_app_views_users_show_html_erb___2419137547570660841_70151468892040'
+
+Rendered /Users/chriscleveland/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /Users/chriscleveland/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+Rendered /Users/chriscleveland/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (28.5ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-02-10 15:41:39 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered users/show.html.erb within layouts/application (2.4ms)
+Rendered layouts/_stylesheets.html.erb (1.3ms)
+Rendered layouts/_header.html.erb (1.3ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 23ms (Views: 13.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-10 15:41:40 -0500
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-10 15:41:40 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-10 15:41:40 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-10 15:41:40 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-02-10 15:49:55 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+Rendered users/show.html.erb within layouts/application (2.7ms)
+Compiled custom.css  (0ms)  (pid 1229)
+Rendered layouts/_stylesheets.html.erb (122.7ms)
+Rendered layouts/_header.html.erb (1.5ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 184ms (Views: 171.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-02-10 15:49:55 -0500
+Served asset /custom.css - 200 OK (43ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-10 15:49:55 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-02-10 15:49:55 -0500
+Served asset /blueprint/screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-02-10 15:49:55 -0500
+Served asset /blueprint/print.css - 304 Not Modified (0ms)
+DEPRECATION WARNING: ActiveRecord::Associations::AssociationCollection is deprecated! Use ActiveRecord::Associations::CollectionProxy instead. (called from <top (required)> at /Users/chriscleveland/Desktop/Coding/Ruby/rails_projects/remake_sample_app/config/environment.rb:5)
+DEPRECATION WARNING: ActiveRecord::Associations::AssociationCollection is deprecated! Use ActiveRecord::Associations::CollectionProxy instead. (called from <top (required)> at /Users/chriscleveland/Desktop/Coding/Ruby/rails_projects/remake_sample_app/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-01 15:13:16 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (69.0ms)
+Rendered layouts/_stylesheets.html.erb (262.6ms)
+Rendered layouts/_header.html.erb (3.8ms)
+Rendered layouts/_footer.html.erb (2.7ms)
+Completed 200 OK in 1135ms (Views: 1134.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css?body=1" for 127.0.0.1 at 2012-03-01 15:13:18 -0500
+Served asset /blueprint/screen.css - 200 OK (118ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-03-01 15:13:18 -0500
+Served asset /logo.png - 200 OK (26ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-03-01 15:13:18 -0500
+Served asset /custom.css - 200 OK (55ms)
+
+
+Started GET "/assets/blueprint/print.css?body=1" for 127.0.0.1 at 2012-03-01 15:13:19 -0500
+Served asset /blueprint/print.css - 200 OK (72ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2012-03-01 15:13:30 -0500
+  Processing by PagesController#about as HTML
+Rendered pages/about.html.erb within layouts/application (0.7ms)
+Rendered layouts/_stylesheets.html.erb (2.3ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 205ms (Views: 204.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-03-01 15:13:33 -0500
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (0.7ms)
+Rendered layouts/_stylesheets.html.erb (2.1ms)
+Rendered layouts/_header.html.erb (3.3ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 161ms (Views: 160.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-03-01 15:13:39 -0500
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (0.1ms)
+Rendered layouts/_stylesheets.html.erb (2.2ms)
+Rendered layouts/_header.html.erb (2.9ms)
+Rendered layouts/_footer.html.erb (1.8ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2012-03-01 15:13:40 -0500
+  Processing by PagesController#about as HTML
+Rendered pages/about.html.erb within layouts/application (0.1ms)
+Rendered layouts/_stylesheets.html.erb (2.1ms)
+Rendered layouts/_header.html.erb (2.9ms)
+Rendered layouts/_footer.html.erb (1.8ms)
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-01 15:13:43 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.2ms)
+Rendered layouts/_stylesheets.html.erb (2.1ms)
+Rendered layouts/_header.html.erb (2.8ms)
+Rendered layouts/_footer.html.erb (1.7ms)
+Completed 200 OK in 22ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-03-01 15:19:17 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (15.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Rendered users/show.html.erb within layouts/application (5.7ms)
+Rendered layouts/_stylesheets.html.erb (2.1ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 87ms (Views: 51.0ms | ActiveRecord: 16.1ms)
+DEPRECATION WARNING: ActiveRecord::Associations::AssociationCollection is deprecated! Use ActiveRecord::Associations::CollectionProxy instead. (called from <top (required)> at /Users/chriscleveland/Desktop/Coding/Ruby/rails_projects/user-template/config/environment.rb:5)
+  [1m[36m (26.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20120207041456)
+Migrating to AddEmailUniquenessIndex (20120207201947)
+Migrating to AddPasswordToUsers (20120210001959)
+Migrating to AddSaltToUsers (20120210012227)
+  [1m[35m (14.4ms)[0m  select sqlite_version(*)
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("users")
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_info('index_users_on_email')[0m
